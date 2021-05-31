@@ -19,4 +19,3 @@ let number2 = 25
  //fora do escopo
   console.log(total)
  
- 
