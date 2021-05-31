@@ -1,7 +1,7 @@
-//function hoisting
+/* 
+    Prototype
 
-sayMyName();
-
-function sayMyName(){
-    console.log('Mayk')
-}
+    *prototype-based language
+    *prototype
+    * __proto__
+*/
