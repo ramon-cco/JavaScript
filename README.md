@@ -6,7 +6,7 @@
 Curso de JavaScript da rocketseat :rocket:
 
 Reposito de apredizado. :construction:
-<br>Exemplos e conceitos. :memo:
+<br>Exemplos,  conceitos e exercícios. :memo:
 <br>
 <a href="https://javascript-docs.netlify.com/">
     <img alt="Javasript" src="https://i.ya-webdesign.com/images/vector-javascript-1.png" width="45" />
