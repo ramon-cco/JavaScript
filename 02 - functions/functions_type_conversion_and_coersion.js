@@ -18,4 +18,23 @@ console.log(Number('9') + 5)
     NaN
 */    
 
-console.log (false ? 'verdadeiro' : 'falso')
+console.log (false ? 'verdadeiro' : 'falso'),
+
+/*
+    TRUTHY
+    Quando um valor é considerado  TRUE em contextos onde um booleano é
+    obrigatório (condicionais e loops)
+
+   true
+   {}
+   []
+   1
+   3.23
+   "0"
+   "false"
+   -1
+    Infinity
+   -Infinity
+*/    
+
+console.log(true ? 'verdadeiro' : 'falso')
