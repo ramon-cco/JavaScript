@@ -1,9 +1,21 @@
-/*
-    Grouping Operator
+/* 
+    Operador precedence
+    Precedência de operadores
+
+    * grouping                      ()
+    * negação e incremento          ! ++ --
+    * mutiplicação e divisão        * /
+    * adição e subtração            + -
+    * relacional                    < <= > >=
+    * igualdade                     == != ===  !==
+    * AND                           &&
+    * OR                            ||
+    * condicional                   ?:
+    * assignment (atribuição)       = += -= *=
+    
 */
 
-let total = 2 + 3 * 5
-console.log(total)
-
-let total2 = (2 + 3) * 5
-console.log(total2)
+console.log( 2 + 5 * 10)
+console.log( (2 + 5) * 10)
+console.log( 3 > 2 > 1 ) // true > 1 == false
+console.log( 3 > 2 && 2 > 1 ) // true and true == true 
