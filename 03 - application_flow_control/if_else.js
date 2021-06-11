@@ -1,5 +1,16 @@
-// if ... else
+/* if ... else
 
+if (condição1)
+   instrução1
+else if (condição2)
+   instrução2
+else if (condição3)
+   instrução3
+...
+else
+   instruçãoN
+
+*/
 // let temperature = 36
 
 // if(temperature >= 37.5){
