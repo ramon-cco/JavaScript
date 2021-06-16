@@ -18,68 +18,70 @@
 
   */
   
-  let family = {
-        incomes: [2, 5, 16],
-        expenses: [5, 5, 5]
-      }
+  // let family = {
+  //       incomes: [2, 5, 16],
+  //       expenses: [5, 5, 5]
+  //     }
 
-  function sum(array) {
-      let total = 0;
-      for(let value of array)
-      total+= value
+  // function sum(array) {
+  //     let total = 0;
+  //     for(let value of array)
+  //     total+= value
     
-    return total
-  }
-
-  function calculateBalance() {
-      const calculateIncomes = sum(family.incomes)
-      const calculateExpenses = sum(family.expenses)
-
-     const total = calculateIncomes - calculateExpenses
-
-    const itsOk = total > 0
-   
-    let balanceText = "negativo"
-
-      if(itsOk){
-        balanceText = "positivo"
-      } 
-      console.log (`Seu saldo é ${balanceText}: R$ ${total.toFixed(2)}`)
-  }
-
-  calculateBalance()
-  
-    
-  
-  // let caixa = {
-  //   receitas: [2, 5, 3],
-  //   despesas: [5, 5, 5]
-  //   }
-  // let totalReceita = 0
-  // for ( var i = 0; i < caixa.receitas.length; i++) {
-  //   totalReceita += caixa.receitas[i]   
-  // } 
-
-  // let totalDespesas = 0
-  // for (var i = 0; i < caixa.despesas.length; i++){
-  //   totalDespesas += caixa.despesas[i]
+  //   return total
   // }
- 
-//    let saldo = totalReceita - totalDespesas
+
+  // function calculateBalance() {
+  //     const calculateIncomes = sum(family.incomes)
+  //     const calculateExpenses = sum(family.expenses)
+
+  //    const total = calculateIncomes - calculateExpenses
+
+  //   const itsOk = total > 0
    
-//   if (saldo < 0) {
-//     console.log("o seu saldo está negativo em: " + saldo)
-//   }else if (saldo > 0){
-//     console.log("o seu saldo está positivo em: " + saldo)
-//   } else {
-//     console.log("o seu saldo está zerado.")
-//   }
+  //   let balanceText = "negativo"
 
-//   return saldo;
+  //     if(itsOk){
+  //       balanceText = "positivo"
+  //     } 
+  //     console.log (`Seu saldo é ${balanceText}: R$ ${total.toFixed(2)}`)
+  // }
 
+  // calculateBalance()
+  
+    function orcamento() {
+      
+   
+  
+  let caixa = {
+    receitas: [2, 5, 3],
+    despesas: [5, 5, 5]
+    }
+  let totalReceita = 0
+  for ( var i = 0; i < caixa.receitas.length; i++) {
+    totalReceita += caixa.receitas[i]   
+  } 
+
+  let totalDespesas = 0
+  for (var i = 0; i < caixa.despesas.length; i++){
+    totalDespesas += caixa.despesas[i]
+  }
  
+   let saldo = totalReceita - totalDespesas
+   
+  if (saldo < 0) {
+    console.log("o seu saldo está negativo em: " + saldo)
+  }else if (saldo > 0){
+    console.log("o seu saldo está positivo em: " + saldo)
+  } else {
+    console.log("o seu saldo está zerado.")
+  }
+
+  return saldo;
+
+}
  
-// console.log(orcamento)
+ console.log(orcamento)
 
 
 
