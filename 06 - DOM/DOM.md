@@ -10,5 +10,5 @@
 * Manipular o html com o javascript
 * Você so programa para WEB porque existe a DOM
 
-![[alt](./img/dom.jpg)
+![[teste](https://github.com/ramon-cco/JavaScript/blob/main/06%20-%20DOM/img/dom.jpg?raw=true)
  
