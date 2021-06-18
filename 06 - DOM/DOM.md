@@ -10,5 +10,5 @@
 * Manipular o html com o javascript
 * Você so programa para WEB porque existe a DOM
 
-![[teste](https://github.com/ramon-cco/JavaScript/blob/main/06%20-%20DOM/img/dom.jpg?raw=true)
+![[teste](https://raw.githubusercontent.com/ramon-cco/JavaScript/main/06%20-%20DOM/img/document%20object%20manager.jpg)
  
