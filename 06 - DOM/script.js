@@ -14,7 +14,21 @@ console.log(className)
 const tag = document.getElementsByTagName('meta')
 console.log(tag)
 
-//querySelector() - busca pelo seletor 
-const query = document.querySelector('.one')
-console.log(query)
+//querySelector() - busca pelo seletor igual no css e trás o primeiro que econtrar(colocando o .junto ao nome para captura o elemento certo)
+const elemento= document.querySelector('.one')
+console.log(element)
 
+//querySelectorAll() - busca todos os seletores
+const elements = document.querySelectorAll('[src]')
+console.log(elements)
+
+elements.forEach(el => console.log(el))
+
+
+//Qual usar?
+
+// getElementById (element)
+// getElementByClassName (HTMLColletion -não aceita forEach)
+// getElementByTagName (HTMLColletion - não aceita forEach)
+// querySelector (element)
+// querySelectorAll (Nodelist - aceita forEach)
