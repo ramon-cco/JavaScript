@@ -3,7 +3,7 @@
 
 <h1># JavaScript</h1>
 
-Reposito de apredizado. :construction:
+Reposito de Pratica. :construction:
 <br>Exemplos,  conceitos e exercícios. :memo:
 <br>
 <a href="https://javascript-docs.netlify.com/">
