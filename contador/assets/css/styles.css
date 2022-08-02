@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(to left bottom, #1c08f6, #0066ff, #0092ff, #00b5ff, #00d3f1, #00dfe8, #00ead6, #37f3bd, #49f2b1, #59f1a4, #68f098, #76ee8b);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+    line-height: 20px;
+}
+
+button {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 2px solid rgb(105, 108, 109);
+    background-color: rgb(105, 108, 109);
+    color: #FFF;
+    font-size: 22pt;
+    font-weight: 600;
+    text-align: center;
+}
+.title{
+    display: flex;
+    align-items: center;
+}
+
+.title img{
+    height: 50px;
+    display: inline;
+    
+}
+h3{
+   padding: 3px;
+}
+#counter {
+    display: flex;
+    justify-items: center;
+}
+
+#currentNumber {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 22pt;
+}
+
+#currentNumberEvent{
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 22pt;
+}
+
+button:disabled {
+    background: rgba(208, 211, 212, 0.8);
+
+  }
+
+  #alert{
+    color: #F00;
+    padding: 20px;
+  }
